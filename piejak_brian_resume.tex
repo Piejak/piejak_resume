@@ -1,0 +1,107 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+
+% Set applicant's personal data for header
+\name{Brian Piejak}
+\address{(404) 279-0954 \linebreak Brian.Piejak@gmail.com}
+\contacts{Github.com/Piejak \linebreak Linkedin.com/in/brianpiejak}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+	% Print the content
+	
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Atlanta, GA}{Georgia Institute of Technology}{Fall 2015 -- Fall 2019}
+			\begin{itemize}
+				\item B.S. in Computer Science with a concentration in Intelligence and Media
+				\item 3.68 GPA -- Highest Honors
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Employment}
+		\begin{cvsubsection}{Software Engineer}{Goldman Sachs}{Summer 2018 - Present}
+			\textbf{Securities Analyst - FAST Data Team}		
+			\begin{itemize}
+				\item Implemented the Metals Derivatives Pricing Model pipeline in a large-scale python NLP platform
+				\item Managed dataset, model, and test data versioning and generated model performance reports
+				\item Added training data and retrained models to accommodate new use cases
+				\item Designed FX data API using Hibernate ORM and Spring Boot
+			\end{itemize}
+			\textbf{Summer Intern - Operations Analytics}
+			\begin{itemize}
+				\item Constructed a machine learning model to analyze client interactions in a CRM platform
+				\item Followed deep learning research methods to form a domain specific natural language corpus
+				\item Trained deep neural translation model to convert trades into a labelled representation of the transaction
+			\end{itemize}
+			\textbf{Summer Intern - Operations Analytics}
+			\begin{itemize}
+				\item Built full-stack regulatory outreach web app – used to replace manual tracking via Excel
+				\item Acted as the lead developer from the first commit to deployment into production
+				\item Saved \$5mm in costs of hiring additional employees for outreach efforts
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Software Development Intern}{AT\&T}{Summer 2017}	
+			\begin{itemize}
+				\item Developed Node.js based chatbot for use with conference room reservation
+				\item Won the award for most innovative intern project throughout the company
+				\item Automated the migration of records from Excel to a database via python, REST, and JSON
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Lead Tutor}{Georgia Institute of Technology}{Fall 2016 -- Spring 2017}		
+			\begin{itemize}
+				\item Tutored student-athletes in a variety of math and science classes; responsible for regular progress reports
+				\item Promoted to lead tutor after one semester; lead training sessions for new tutors
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Technical Experience}
+		\begin{cvsubsection}{Projects}{}{}
+			\begin{itemize}
+				\item \textbf{Zazu} (2019). Web and iOS app that provides a customized investment portfolio as well as Sharpe ration optimized allocation based on a user's risk tolerance and investment time horizon. Built for HackGT 2019; won first place for best use of BlackRock's API.
+				\item \textbf{floodAR} (2018-2019). Android app that displays simulated flood water levels over the user's camera via Google's ARCore in order to increase awareness of flood danger in high-risk communities. Built in partnership with the Georgia Tech Global Change Program and the City of Savannah.
+				\item \textbf{numer.ai} (2017) Stock picking machine learning model built in python with sklearn using random forests. Selected as one of the winning models in the January 2017 competition.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Languages and Technologies}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item Python, Java, Javascript
+				\item Node.js, Sklearn, Keras, Git, React, MongoDB, Spring Boot
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+\end{document}
